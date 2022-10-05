@@ -1,0 +1,315 @@
+/*estilos generales */
+
+* {
+  margin: 0px;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.padre {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.margen-interno {
+  padding: 0 50px;
+}
+.footer {
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.pie {
+  text-align: center;
+}
+.pie a {
+  color: black;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 2px;
+}
+
+/*-------------------------------------------estilos para Inicio---------------------------------------------------------------*/
+.bodyInicio {
+  font-family: "Montserrat", sans-serif;
+  background: url(../imagenes/Home.png);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+.headerInicio {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.menu {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-flow: row nowrap;
+  height: 70px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.logo {
+  flex: 1 1 auto;
+  padding: 10px;
+  
+}
+.logo a {
+  color: black;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .logo a img {
+    
+    border-radius: 10px;
+ }
+
+.logo a:hover {
+  color: #a29999;
+}
+.nav {
+  flex: 5 1 auto;
+}
+.nav a {
+  color: rgb(69, 17, 17);
+  font-size: 20px;
+  font-weight: 25px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 2px;
+}
+.nav a:hover {
+  color: #a29999;
+}
+.social {
+  flex: 1 1 auto;
+  display: flex;
+}
+.social a {
+  color: black;
+  font-size: 30px;
+  padding: 0 5px;
+}
+.social a:hover {
+  color: #a29999;
+}
+
+.texto-principal {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+.h1-index {
+  font-family: "lora", serif;
+  font-size: 40px;
+  color: aliceblue;
+  font-weight: 300px;
+  background-color: black;
+  line-height: 1.6;
+  text-align: center;
+}
+
+ul li {
+  font-size: 30px;
+}
+.ulInicio {
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.liCenter {
+  display: flex;
+  align-items: center;
+}
+.img1 {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 30%;
+}
+
+/*------------------------------------------------estilos aplicados nosotros.html---------------------------------------------------------*/
+.bodyNosotros {
+  font-family: "Montserrat", sans-serif;
+}
+.sectionNosotros {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  margin: 5px;
+  padding: 5px;
+}
+
+.articleNosotros {
+  height: 600px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.imgNosotros {
+  border-radius: 10px;
+  border: solid 3px;
+  border-color: black;
+}
+.h1Nosotros {
+  font-size: 40px;
+  font-weight: 20px;
+  margin-left: 5px;
+}
+.h3Nosotros {
+  text-align: start;
+  line-height: 1.6;
+  padding-right: 25px;
+}
+
+/* ---------------------------------------estilos para servicio----------------------------------------------------------------*/
+.h1Servicios {
+  font-size: 40px;
+}
+
+.seccionServicios {
+  display: flex;
+  flex-direction: column;
+}
+
+.lista {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.titular {
+  margin: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgServicios {
+  height: 450px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.articleServicios {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*-------------------------------------------estilos para galeria-----------------------------------------------------------*/
+.h1galeria {
+  font-size: 70px;
+  text-align: center;
+}
+.contenedor {
+  width: 100%;
+  margin: auto;
+}
+video {
+  width: 100%;
+}
+.galeria-columna {
+  margin: 10px;
+}
+.galeria .contenedor {
+  display: grid;
+}
+@media (min-width: 600px) {
+  .galeria .contenedor {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+@media (min-width: 768px) {
+  .galeria .contenedor {
+    grid-template-columns: repeat(3, 33.3%);
+  }
+}
+@media (min-width: 1024px) {
+  .galeria .contenedor {
+    grid-template-columns: repeat(4, 25%);
+  }
+  .contenedor {
+    width: 1024px;
+  }
+}
+@media (min-width: 1200px) {
+  .contenedor {
+    width: 1200px;
+  }
+}
+
+/*-------------------------------------------estilos paracontacto ------------------------------------------------------------------*/
+
+.bodyContacto {
+  font-family: "Montserrat", sans-serif;
+}
+.sectionContacto {
+  height: 700px;
+  background: url(../imagenes/Contacto2.jpeg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+form input {
+  height: 40px;
+  margin-bottom: 5px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+form textarea {
+  height: 160px;
+  margin-bottom: 5px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+.botonContacto {
+  height: 50px;
+  background-color: black;
+  color: #fff;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+/*----------------------------------------64madie general--------------------------------------------------*/
+@media all and (max-width: 1120px) {
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+}
+/*-----------------------------------------------------animacion------------------------------------------*/
+@media (prefers-reduced-motion: no-preference) {
+  .img1 {
+    animation: img1-spin infinite 10s linear;
+  }
+}
+@keyframes img1-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
