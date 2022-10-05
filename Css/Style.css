@@ -251,8 +251,8 @@ video {
   }
 }
 
-/*-------------------------------------------estilos paracontacto ------------------------------------------------------------------*/
-
+/*-------------------------------------------estilos para contacto ------------------------------------------------------------------*/
+/* ------------------------------------Se realizo y maqueto com boostrap---------------------------------------------------*/
 .bodyContacto {
   font-family: "Montserrat", sans-serif;
 }
@@ -265,32 +265,7 @@ video {
   display: flex;
   justify-content: center;
 }
-form {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-}
-form input {
-  height: 40px;
-  margin-bottom: 5px;
-  border: solid 2px black;
-  border-radius: 5px;
-}
-form textarea {
-  height: 160px;
-  margin-bottom: 5px;
-  border: solid 2px black;
-  border-radius: 5px;
-}
 
-.botonContacto {
-  height: 50px;
-  background-color: black;
-  color: #fff;
-  border: solid 2px black;
-  border-radius: 5px;
-}
 /*----------------------------------------64madie general--------------------------------------------------*/
 @media all and (max-width: 1120px) {
   .menu {
