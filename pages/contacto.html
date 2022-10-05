@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../Css/Style.css" />
     <script
       src="https://kit.fontawesome.com/649b8f4511.js"
@@ -60,19 +66,28 @@
       <!-----------------------------------------Formulario------------------------------------------------------>
       <section class="sectionContacto">
         <form>
-          <input required type="text" placeholder="Ingrese su nombre" />
-
-          <input required type="text" placeholder="ingrese su email" />
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Ingrede su comentarios"
-          ></textarea>
-          <button class="botonContacto">
-            <h2>Enviar</h2>
-          </button>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Ingrese su Email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Ingrese sus Comentarios</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">Enviar</button>
         </form>
       </section>
       <!---------------------------Footer agregar iconos ms adelante--------------------------------------------->

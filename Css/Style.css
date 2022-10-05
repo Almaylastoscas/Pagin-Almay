@@ -59,7 +59,6 @@ a {
 .logo {
   flex: 1 1 auto;
   padding: 10px;
-  
 }
 .logo a {
   color: black;
@@ -69,10 +68,9 @@ a {
   align-items: center;
 }
 
- .logo a img {
-    
-    border-radius: 10px;
- }
+.logo a img {
+  border-radius: 10px;
+}
 
 .logo a:hover {
   color: #a29999;
@@ -303,7 +301,7 @@ form textarea {
 /*-----------------------------------------------------animacion------------------------------------------*/
 @media (prefers-reduced-motion: no-preference) {
   .img1 {
-    animation: img1-spin infinite 10s linear;
+    animation: img1-spin infinite 5s linear;
   }
 }
 @keyframes img1-spin {
@@ -313,3 +311,4 @@ form textarea {
   to {
     transform: rotate(360deg);
   }
+}
