@@ -299,6 +299,16 @@ video {
     font-size: 15px;
     text-align: center;
   }
+  .texto-principal li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .h1-index {
+    font-size: 30px;
+  }
 }
 
 /*-----------------------------------------------------animacion------------------------------------------*/
