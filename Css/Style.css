@@ -239,13 +239,46 @@ video {
   justify-content: center;
 }
 
-/*----------------------------------------64madie general--------------------------------------------------*/
-@media all and (max-width: 1120px) {
+/*----------------------------------------@media general--------------------------------------------------*/
+@media all and (max-width: 1195px) {
   .menu {
     flex-direction: column;
     height: auto;
   }
+  .articleServicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+@media all and (max-width: 960px) {
+  .off {
+    display: none;
+  }
+}
+@media all and (max-width: 720px) {
+  .imgServicios {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+  }
+  .lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tamaño {
+    font-size: 20px;
+  }
+  .servicio__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /*-----------------------------------------------------animacion------------------------------------------*/
 @media (prefers-reduced-motion: no-preference) {
   .img1 {
