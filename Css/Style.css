@@ -141,39 +141,12 @@ ul li {
 /*------------------------------------------------estilos aplicados nosotros.html---------------------------------------------------------*/
 .bodyNosotros {
   font-family: "Montserrat", sans-serif;
+  background-color: rgb(178, 230, 221);
 }
-.sectionNosotros {
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
-  margin: 5px;
-  padding: 5px;
-}
-
-.articleNosotros {
-  height: 600px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-
-  padding: 10px;
-}
-
-.imgNosotros {
-  border-radius: 10px;
-  border: solid 3px;
-  border-color: black;
-}
-.h1Nosotros {
-  font-size: 40px;
-  font-weight: 20px;
-  margin-left: 5px;
-}
-.h3Nosotros {
-  text-align: start;
-  line-height: 1.6;
-  padding-right: 25px;
+.bg-dark {
+  font-size: 45px;
+  color: aliceblue;
+  font-weight: 50px;
 }
 
 /* ---------------------------------------estilos para servicio----------------------------------------------------------------*/
