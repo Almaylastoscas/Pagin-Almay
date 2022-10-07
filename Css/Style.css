@@ -310,6 +310,11 @@ video {
     font-size: 30px;
   }
 }
+@media all and (max-width: 450px) {
+  .servicio__ul li {
+    font-size: 12px;
+  }
+}
 
 /*-----------------------------------------------------animacion------------------------------------------*/
 @media (prefers-reduced-motion: no-preference) {
